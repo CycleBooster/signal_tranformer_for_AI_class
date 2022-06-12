@@ -112,7 +112,7 @@ def read_dataset(data_path):
         plt.title("ventricular signal")
         plt.show()
 
-# build_dataset('./mit-bih-arrhythmia-database-1.0.0/')
+build_dataset('./mit-bih-arrhythmia-database-1.0.0/')
 # read_dataset("./train_dataset.pickle")
-print_signal()
+# print_signal()
 
