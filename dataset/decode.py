@@ -85,13 +85,13 @@ def build_dataset(data_dir):
         "signal":signal_dict,
         "annotation":train_ann_dict
     }
-    pickle_write(train_dataset, "./train_dataset.pickle")
+    pickle_write(train_dataset, "./train.pickle")
 
     val_dataset = {
         "signal":signal_dict,
         "annotation":val_ann_dict
     }
-    pickle_write(val_dataset, "./val_dataset.pickle")
+    pickle_write(val_dataset, "./val.pickle")
 
     # dataset = {
     #     "signal":signal_dict,
